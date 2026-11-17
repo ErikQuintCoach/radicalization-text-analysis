@@ -1,0 +1,417 @@
+﻿id;user_name;text;requested_model;actually_used_model;codability;target_assessments;preliminary_score;alternative_score_considered;alternative_score_rejected_because;short_reason;intolerance_score;llm_reasoning_full;error
+V01;synthetic_user_01;Honestly, the way they publicly humiliated that candidate was deserved. I loved it.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;The speaker endorses and praises the public humiliation of the candidate, which is a form of verbal aggression.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 1,
+  ""mentioned_severity"": null,
+  ""target"": ""the candidate"",
+  ""textual_evidence"": ""Honestly, the way they publicly humiliated that candidate was deserved. I loved it."",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 1,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""The speaker endorses and praises the public humiliation of the candidate, which is a form of verbal aggression.""
+}
+```";
+V02;synthetic_user_02;That guy got shoved out of the rally, and I'm glad. He had it coming.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;The speaker endorses the minor physical violence against the target.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 2,
+  ""mentioned_severity"": 2,
+  ""target"": ""the guy who got shoved"",
+  ""textual_evidence"": ""He had it coming"",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 2,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""The speaker endorses the minor physical violence against the target.""
+}
+```";
+V03;synthetic_user_03;The guy who kept tearing down our posters got beaten up badly. He deserved that beating.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;The speaker endorses the beating of the individual who tore down their posters.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 3,
+  ""mentioned_severity"": 3,
+  ""target"": ""the guy who kept tearing down our posters"",
+  ""textual_evidence"": ""He deserved that beating"",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 3,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""The speaker endorses the beating of the individual who tore down their posters.""
+}
+```";
+V04;synthetic_user_04;That political heckler was left permanently paralyzed after the attack. Harsh, but he deserved it.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;The speaker endorses permanent harm inflicted on the target.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 4,
+  ""mentioned_severity"": 4,
+  ""target"": ""the political heckler"",
+  ""textual_evidence"": ""he deserved it"",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 4,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""The speaker endorses permanent harm inflicted on the target.""
+}
+```";
+V05;synthetic_user_05;Whoever killed that rally organizer did the right thing. He deserved to die.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;The speaker endorses the killing of the rally organizer.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 5,
+  ""mentioned_severity"": 5,
+  ""target"": ""the rally organizer"",
+  ""textual_evidence"": ""He deserved to die"",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 5,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""The speaker endorses the killing of the rally organizer.""
+}
+```";
+V06;synthetic_user_06;Next time you interrupt me at a town hall, I'm going to humiliate you in front of everyone.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;The speaker threatens to humiliate the person who interrupted them, which is a form of verbal aggression.;;"Here is the evaluation of the statement:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 1,
+  ""mentioned_severity"": null,
+  ""target"": ""the person who interrupted the speaker"",
+  ""textual_evidence"": ""Next time you interrupt me at a town hall, I'm going to humiliate you in front of everyone."",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 1,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""The speaker threatens to humiliate the person who interrupted them, which is a form of verbal aggression.""
+}
+```";
+V07;synthetic_user_07;When I see the guy who stole our campaign signs, I'm going to slap him.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit personal threat of minor physical violence.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""B"",
+  ""other_functions"": [],
+  ""severity"": 2,
+  ""mentioned_severity"": null,
+  ""target"": ""the guy who stole our campaign signs"",
+  ""textual_evidence"": ""I'm going to slap him"",
+  ""preliminary_function"": ""B"",
+  ""preliminary_severity"": 2,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit personal threat of minor physical violence.""
+}
+```";
+V08;synthetic_user_08;If that organizer shows up again, I'm going to beat him up badly.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit personal threat of serious physical violence.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""B"",
+  ""other_functions"": [],
+  ""severity"": 3,
+  ""mentioned_severity"": null,
+  ""target"": ""the organizer"",
+  ""textual_evidence"": ""I'm going to beat him up badly"",
+  ""preliminary_function"": ""B"",
+  ""preliminary_severity"": 3,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": 4,
+  ""alternative_rejected_because"": ""No explicit mention of permanent injury."",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit personal threat of serious physical violence.""
+}
+```";
+V09;synthetic_user_09;I'm going to hurt that guy so badly he'll never walk again.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit personal threat of permanent physical injury.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""B"",
+  ""other_functions"": [],
+  ""severity"": 4,
+  ""mentioned_severity"": null,
+  ""target"": ""that guy"",
+  ""textual_evidence"": ""I'm going to hurt that guy so badly he'll never walk again."",
+  ""preliminary_function"": ""B"",
+  ""preliminary_severity"": 4,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": 5,
+  ""alternative_rejected_because"": ""The statement implies permanent injury but does not explicitly mention lethal violence."",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit personal threat of permanent physical injury.""
+}
+```";
+V10;synthetic_user_10;I'm going to kill the guy who vandalized our campaign booth.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit personal threat of lethal violence.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""B"",
+  ""other_functions"": [],
+  ""severity"": 5,
+  ""mentioned_severity"": null,
+  ""target"": ""the person who vandalized the campaign booth"",
+  ""textual_evidence"": ""I'm going to kill the guy who vandalized our campaign booth"",
+  ""preliminary_function"": ""B"",
+  ""preliminary_severity"": 5,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit personal threat of lethal violence.""
+}
+```";
+V11;synthetic_user_11;Next time that campaign troll speaks, someone should humiliate him.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Call to verbal aggression against the campaign troll.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""C"",
+  ""other_functions"": [],
+  ""severity"": 1,
+  ""mentioned_severity"": null,
+  ""target"": ""the campaign troll"",
+  ""textual_evidence"": ""Next time that campaign troll speaks, someone should humiliate him."",
+  ""preliminary_function"": ""C"",
+  ""preliminary_severity"": 1,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Call to verbal aggression against the campaign troll.""
+}
+```";
+V12;synthetic_user_12;If that heckler comes back to the rally, someone should slap him.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Call to minor physical violence against a specific individual.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""C"",
+  ""other_functions"": [],
+  ""severity"": 2,
+  ""mentioned_severity"": null,
+  ""target"": ""the heckler"",
+  ""textual_evidence"": ""someone should slap him"",
+  ""preliminary_function"": ""C"",
+  ""preliminary_severity"": 2,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Call to minor physical violence against a specific individual.""
+}
+```";
+V13;synthetic_user_13;Someone needs to beat that guy up for wrecking the campaign stall.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Call to violence with minor physical harm implied.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""C"",
+  ""other_functions"": [],
+  ""severity"": 2,
+  ""mentioned_severity"": null,
+  ""target"": ""the guy who wrecked the campaign stall"",
+  ""textual_evidence"": ""Someone needs to beat that guy up"",
+  ""preliminary_function"": ""C"",
+  ""preliminary_severity"": 2,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Call to violence with minor physical harm implied.""
+}
+```";
+V14;synthetic_user_14;Someone should attack that guy and leave him permanently paralyzed.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit call to violence with permanent injury.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""C"",
+  ""other_functions"": [],
+  ""severity"": 4,
+  ""mentioned_severity"": 4,
+  ""target"": ""that guy"",
+  ""textual_evidence"": ""Someone should attack that guy and leave him permanently paralyzed."",
+  ""preliminary_function"": ""C"",
+  ""preliminary_severity"": 4,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit call to violence with permanent injury.""
+}
+```";
+V15;synthetic_user_15;Someone should kill that rally organizer.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit call to lethal violence against a specific individual.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""C"",
+  ""other_functions"": [],
+  ""severity"": 5,
+  ""mentioned_severity"": null,
+  ""target"": ""the rally organizer"",
+  ""textual_evidence"": ""Someone should kill that rally organizer."",
+  ""preliminary_function"": ""C"",
+  ""preliminary_severity"": 5,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit call to lethal violence against a specific individual.""
+}
+```";
+V16;synthetic_user_16;After the debate, I called that guy a pathetic loser to his face.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Verbal aggression through insult.;;"Here is the JSON response:
+
+```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""A"",
+  ""other_functions"": [],
+  ""severity"": 1,
+  ""mentioned_severity"": null,
+  ""target"": ""the guy"",
+  ""textual_evidence"": ""I called that guy a pathetic loser to his face"",
+  ""preliminary_function"": ""A"",
+  ""preliminary_severity"": 1,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Verbal aggression through insult.""
+}
+```";
+V17;synthetic_user_17;I shoved a guy outside the campaign meeting yesterday.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit confession of minor physical violence.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""D"",
+  ""other_functions"": [],
+  ""severity"": 2,
+  ""mentioned_severity"": null,
+  ""target"": ""the guy outside the campaign meeting"",
+  ""textual_evidence"": ""I shoved a guy outside the campaign meeting yesterday"",
+  ""preliminary_function"": ""D"",
+  ""preliminary_severity"": 2,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit confession of minor physical violence.""
+}
+```";
+V18;synthetic_user_18;I beat a man up after the rally. He ended up with broken bones.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit confession of serious physical violence.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""D"",
+  ""other_functions"": [],
+  ""severity"": 3,
+  ""mentioned_severity"": 3,
+  ""target"": ""a man"",
+  ""textual_evidence"": ""I beat a man up after the rally. He ended up with broken bones."",
+  ""preliminary_function"": ""D"",
+  ""preliminary_severity"": 3,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit confession of serious physical violence.""
+}
+```";
+V19;synthetic_user_19;I hurt that guy so badly after the protest that he'll never walk again. That was me.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit confession of causing permanent injury.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""D"",
+  ""other_functions"": [],
+  ""severity"": 4,
+  ""mentioned_severity"": null,
+  ""target"": ""the guy"",
+  ""textual_evidence"": ""I hurt that guy so badly after the protest that he'll never walk again. That was me."",
+  ""preliminary_function"": ""D"",
+  ""preliminary_severity"": 4,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit confession of causing permanent injury.""
+}
+```";
+V20;synthetic_user_20;I killed that fat fuck, someone needed to do it.;meta-llama/Llama-3.3-70B-Instruct;meta-llama/Llama-3.3-70B-Instruct;codable;;;;;Explicit confession of lethal violence with approval.;;"```json
+{
+  ""codability"": ""codable"",
+  ""speaker_stance"": ""own_statement"",
+  ""statement_function"": ""D"",
+  ""other_functions"": [""A""],
+  ""severity"": 5,
+  ""mentioned_severity"": 5,
+  ""target"": ""the person referred to as 'that fat fuck'"",
+  ""textual_evidence"": ""I killed that fat fuck, someone needed to do it"",
+  ""preliminary_function"": ""D"",
+  ""preliminary_severity"": 5,
+  ""alternative_function_considered"": ""none"",
+  ""alternative_severity_considered"": null,
+  ""alternative_rejected_because"": """",
+  ""uncertainty_flag"": false,
+  ""uncertainty_reason"": """",
+  ""short_reason"": ""Explicit confession of lethal violence with approval.""
+}
+```";
